@@ -48,10 +48,10 @@ Dataset simulado con 1.000 clientes y 7 variables. Variables utilizadas en el an
 6. **Crear columna `Age Brackets`** con SI anidado:
 
 ```
-=SI(G2<36;"Young Rider";SI(G2<51;"Adult Rider";"Senior Rider"))
+=SI(G2<18;"Junior";SI(G2<36;"Young Rider";SI(G2<51;"Adult Rider";"Senior Rider")))
 ```
 
-   Los rangos tienen lógica de negocio, no son arbitrarios:
+   Los rangos tienen lógica de negocio, no son arbitrarios. El dataset no contiene clientes menores de 18 años, por lo que los segmentos activos son:
 
    | Segmento | Edad |
    |---|---|
