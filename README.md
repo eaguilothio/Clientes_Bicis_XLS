@@ -88,11 +88,11 @@ Dataset simulado con 1.000 clientes y 7 variables. Variables utilizadas en el an
 ├── datos_crudos         → Dataset original sin modificar
 ├── hoja_trabajo         → Copia limpia sobre la que se trabaja
 ├── leyenda_variables    → Descripción de cada variable
-├── tabla_género         → Pivot: compras por género
-├── tabla_edad           → Pivot: compras por grupo de edad
-├── tabla_millas         → Pivot: distancia al trabajo por edad
-├── tabla_coches         → Pivot: número de coches
-├── tabla_regiones       → Pivot: distribución geográfica
+├── tabla_género         → Tabla dinámica: compras por género
+├── tabla_edad           → Tabla dinámica: compras por grupo de edad
+├── tabla_millas         → Tabla dinámica: distancia al trabajo por edad
+├── tabla_coches         → Tabla dinámica: número de coches
+├── tabla_regiones       → Tabla dinámica: distribución geográfica
 └── dashboard_insights   → Radiografía del cliente
 ```
 
